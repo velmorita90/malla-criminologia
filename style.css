@@ -1,0 +1,44 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fff0f5;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #d63384;
+}
+
+.cuatrimestre {
+  margin-bottom: 25px;
+  padding: 15px;
+  border-left: 5px solid #20c997;
+  background-color: #fdfdff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+h2 {
+  color: #20c997;
+}
+
+.materia {
+  background-color: #ffe6f0;
+  border: 1px solid #ffc2d1;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.materia:hover {
+  background-color: #fcbad3;
+}
+
+.materia.cursada {
+  background-color: #d4f9e5;
+  text-decoration: line-through;
+  color: #6c757d;
+}
